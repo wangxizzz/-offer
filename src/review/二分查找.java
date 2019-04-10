@@ -11,13 +11,15 @@ public class 二分查找 {
         int start = 0;
         int end = num.length - 1;
         while (start <= end) {
-            int mid = (start + end)/2;
-            if (val > num[mid]) {
-                start = mid + 1;
-            }else if (val < num[mid]) {
+            int mid = (start + end) / 2;
+            // 最开始判断是否相等。
+            if (val == num[mid]) {
+                System.out.println("找到了");
+                break;
+            } else if (val < num[mid]) {
                 end = mid - 1;
             } else {
-                System.out.println("找到了");
+                start = mid + 1;
             }
         }
     }

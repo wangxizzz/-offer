@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="">
+    <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="增加包结构2019">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day微机房/使奇数位于偶数去前面.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day微机房/删除链表中重复的节点二.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day微机房/输出链表中间节点.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day微机房/输出链表的倒数k个节点.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合2.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/review/二分查找.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/review/二分查找.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,38 +49,70 @@
     <session id="816264612">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="4" />
+          <entry key="java" value="1234" />
+          <entry key="md" value="12" />
+          <entry key="txt" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="JAVA" value="1234" />
+          <entry key="Markdown" value="12" />
+          <entry key="PLAIN_TEXT" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
-          <entry key="md" value="2" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="22" />
+          <entry key="md" value="7" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
-          <entry key="Markdown" value="2" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="22" />
+          <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/review/二分查找.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>putAll(</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -92,6 +122,18 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/StringDemo.java" />
         <option value="$PROJECT_DIR$/src/test/Test01.java" />
+        <option value="$PROJECT_DIR$/2019/src/book_note/day01/最大公约数.java" />
+        <option value="$PROJECT_DIR$/2019/src/book_note/README.md" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/Test.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/全排列2.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/全排列.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/组合.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/全排列.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/解法说明.txt" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/全排列2.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合2.java" />
+        <option value="$PROJECT_DIR$/src/review/二分查找.java" />
       </list>
     </option>
   </component>
@@ -101,11 +143,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -223,12 +271,18 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,19 +293,37 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="review" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542100220314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554866132562" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -272,12 +344,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Test01">
-    <configuration name="PrintStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.PrintStack" />
-      <module name="剑指offer" />
+    <configuration name="最大公约数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="book_note.day01.最大公约数" />
+      <module name="2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="book_note.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -285,12 +357,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.StringDemo" />
-      <module name="剑指offer" />
+    <configuration name="全排列2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础算法.day01.排列组合问题.全排列2" />
+      <module name="2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="基础算法.day01.排列组合问题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,16 +383,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础算法.day01.排列组合问题.全排列" />
+      <module name="2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基础算法.day01.排列组合问题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="组合" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础算法.day01.排列组合问题.组合" />
+      <module name="2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基础算法.day01.排列组合问题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.PrintStack" />
-      <item itemvalue="Application.StringDemo" />
       <item itemvalue="Application.Test01" />
+      <item itemvalue="Application.最大公约数" />
+      <item itemvalue="Application.全排列2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.全排列2" />
+        <item itemvalue="Application.最大公约数" />
         <item itemvalue="Application.Test01" />
-        <item itemvalue="Application.StringDemo" />
-        <item itemvalue="Application.PrintStack" />
       </list>
     </recent_temporary>
   </component>
@@ -337,6 +435,11 @@
       <workItem from="1542100111089" duration="129000" />
       <workItem from="1542119874063" duration="23000" />
       <workItem from="1542345783555" duration="81000" />
+      <workItem from="1546776287598" duration="1886000" />
+      <workItem from="1549263955435" duration="222000" />
+      <workItem from="1549264212276" duration="13000" />
+      <workItem from="1554777187075" duration="17831000" />
+      <workItem from="1554863166768" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -345,16 +448,37 @@
       <option name="project" value="LOCAL" />
       <updated>1542100188137</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加包结构2019">
+      <created>1546776533251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546776533251</updated>
+    </task>
+    <task id="LOCAL-00003" summary="最大公约数">
+      <created>1554777305065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554777305065</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DFS 回溯">
+      <created>1554811390028</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554811390028</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233000" />
+    <option name="totallyTimeSpent" value="22173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,13 +487,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25081968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41147542" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -380,7 +504,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
@@ -392,17 +516,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法" />
+    <MESSAGE value="增加包结构2019" />
+    <MESSAGE value="最大公约数" />
+    <MESSAGE value="DFS 回溯" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS 回溯" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/全排列.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/day01/替换空格.java" />
-    <entry file="file://$PROJECT_DIR$/src/day03/part1/P3_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/单例模式/LRU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-290">
@@ -439,6 +571,38 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day01/二叉树镜像.java" />
+    <entry file="file://$PROJECT_DIR$/src/随笔测试/day03/UnsafeSimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day03/part1/P3数组重复的数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day03/part1/P3_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/2019.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/book_note/day01/最大公约数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/book_note/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -449,10 +613,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/随笔测试/day03/UnsafeSimpleDateFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/day03/part2/P38字符串的排列.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="25">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="1853" column="15" lean-forward="true" selection-start-line="1853" selection-start-column="15" selection-end-line="1853" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="175" column="11" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/Test.java" />
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/解法说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/全排列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/全排列2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/review/二分查找.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
