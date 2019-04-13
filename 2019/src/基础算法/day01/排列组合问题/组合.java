@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * <Description>
- *
+ * 此题给的数组元素没有重复，因此没有剪枝函数，不需要排序，当然本身就是有序的。
  * @author wangxi
  */
 public class 组合 {
