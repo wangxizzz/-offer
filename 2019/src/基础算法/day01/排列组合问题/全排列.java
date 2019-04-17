@@ -15,10 +15,10 @@ public class 全排列 {
 
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
-        backtrack(list, new ArrayList<>(), nums);
+        backtrack(list, new ArrayList<>(), nums, 0);
         return list;
     }
-    public static void backtrack(List<List<Integer>> list, List<Integer> templist, int[] nums){
+    public static void backtrack(List<List<Integer>> list, List<Integer> templist, int[] nums, int t){
         if (templist.size() == nums.length) {
             list.add(new ArrayList<>(templist));// 符合条件的加入进去
             return;
@@ -28,7 +28,11 @@ public class 全排列 {
                 continue;
             }
             templist.add(nums[i]);
-            backtrack(list, templist, nums);
+            /**
+             * 这里的递归可以看做：
+             * 调用别的类的backtrack方法，返回执行完返回，这样就可以理解第一次return i=2,t=2。
+             */
+            backtrack(list, templist, nums, t + 1);
             /**
              * 引用分配在堆上，因此需要手动删掉。
              * 如果是栈所持有的变量，在递归到下一层时，值是不会带到下一层的。
