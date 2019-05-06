@@ -6,6 +6,7 @@ import java.util.List;
 /**
  * <Description>
  * 此题给的数组元素没有重复，因此没有剪枝函数，不需要排序，当然本身就是有序的。
+ * https://leetcode.com/problems/combinations/
  * @author wangxi
  */
 public class 组合 {
@@ -28,7 +29,7 @@ public class 组合 {
         }
         for (int i = start; i < nums.length; i++) {
             list.add(nums[i]);
-            // 始终与i后面一个组合
+            // 始终与i后面一个组合.只维持一个变量i的改变
             combine(nums, result, list, k, i + 1);
             list.remove(list.size() - 1);
         }
