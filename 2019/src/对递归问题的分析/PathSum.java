@@ -48,24 +48,8 @@ public class TreeNode {
             return true;
         }
         boolean r = helper(root.right, sum, rest - root.val);
+        // 左子树若为true，那么递归回退时，左子树始终为true
         return l || r;
-    }
-
-
-
-
-    public static boolean hasPathSum1(CreateIntegerTree.TreeNode root, int sum) {
-        // recursion method
-        if (root == null) return false;
-        if (root.left == null && root.right == null && root.val == sum) {
-            return true;
-        }
-        boolean left = hasPathSum1(root.left, sum - root.val);
-        if (left) {
-            return true;
-        }
-        boolean right = hasPathSum1(root.right, sum - root.val);
-        return left || right;
     }
 }
 

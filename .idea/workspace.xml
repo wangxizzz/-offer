@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2019/src/util/CreateIntegerTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019/src/util/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/util/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,21 +62,21 @@
         <counts>
           <entry key="java" value="2483" />
           <entry key="md" value="12" />
-          <entry key="txt" value="79" />
+          <entry key="txt" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2483" />
           <entry key="Markdown" value="12" />
-          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="PLAIN_TEXT" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="59" />
+          <entry key="java" value="60" />
           <entry key="md" value="7" />
           <entry key="txt" value="2" />
         </counts>
@@ -88,7 +85,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="59" />
+          <entry key="JAVA" value="60" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -97,25 +94,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/util/CreateIntegerTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="266">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -338,13 +321,6 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="对递归问题的分析" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -358,7 +334,7 @@
     <property name="SearchEverywhereHistoryKey" value="AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557483012202" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557483928571" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -557,7 +533,7 @@
       <workItem from="1557066167359" duration="1283000" />
       <workItem from="1557154507969" duration="516000" />
       <workItem from="1557198469641" duration="5136000" />
-      <workItem from="1557457372789" duration="6594000" />
+      <workItem from="1557457372789" duration="7157000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -615,14 +591,29 @@
       <option name="project" value="LOCAL" />
       <updated>1557199169947</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="对二叉树的序列化与反序列化">
+      <created>1557483349389</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557483349389</updated>
+    </task>
+    <task id="LOCAL-00010" summary="左子树满足条件，提前结束递归">
+      <created>1557483380475</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557483380475</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49342000" />
+    <option name="totallyTimeSpent" value="49905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -669,7 +660,9 @@
     <MESSAGE value="对递归的思考" />
     <MESSAGE value="对递归的思考-树的高度" />
     <MESSAGE value="提前结束递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="提前结束递归" />
+    <MESSAGE value="对二叉树的序列化与反序列化" />
+    <MESSAGE value="左子树满足条件，提前结束递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="左子树满足条件，提前结束递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -691,30 +684,6 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java</url>
@@ -955,18 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/src/util/CreateIntegerTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -981,10 +938,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/util/CreateIntegerTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="266">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>
