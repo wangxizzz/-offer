@@ -18,6 +18,19 @@ public class TreeNode {
 		this.left = left;
 		this.right = right;
 	}
+
+
+
+	public static TreeNode createSimpleTree() {
+        TreeNode F = new TreeNode("F", null, null);
+        TreeNode E = new TreeNode("E", null, null);
+        TreeNode D = new TreeNode("D", null, E);
+        TreeNode B = new TreeNode("B", null, D);
+        TreeNode C = new TreeNode("C", null, F);
+        TreeNode root = new TreeNode("A", B, C);
+        return root;
+    }
+
 	//二叉树的创建并返回根节点
 	public static TreeNode createTreeNode() {
 		TreeNode a1 = new TreeNode("A1", null, null);

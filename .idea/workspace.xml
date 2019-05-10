@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019/src/util/CreateIntegerTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/src/util/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/util/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,35 +51,35 @@
     <session id="816264612">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="10" />
+          <entry key="project.open.time.1" value="11" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1912" />
+          <entry key="java" value="2483" />
           <entry key="md" value="12" />
-          <entry key="txt" value="71" />
+          <entry key="txt" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1912" />
+          <entry key="JAVA" value="2483" />
           <entry key="Markdown" value="12" />
-          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="PLAIN_TEXT" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="43" />
+          <entry key="java" value="59" />
           <entry key="md" value="7" />
           <entry key="txt" value="2" />
         </counts>
@@ -85,7 +88,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="43" />
+          <entry key="JAVA" value="59" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
@@ -93,21 +96,26 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/树的高度.java">
+        <entry file="file://$PROJECT_DIR$/2019/src/util/CreateIntegerTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="147">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java">
+        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+            <state relative-caret-position="236">
+              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -153,7 +161,11 @@
         <option value="$PROJECT_DIR$/2019/src/基础算法/DemoTest.java" />
         <option value="$PROJECT_DIR$/2019/src/基础算法/Solution.java" />
         <option value="$PROJECT_DIR$/2019/src/对递归问题的分析/树的高度.java" />
+        <option value="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL2.java" />
+        <option value="$PROJECT_DIR$/2019/src/util/TreeNode.java" />
+        <option value="$PROJECT_DIR$/2019/src/util/CreateIntegerTree.java" />
         <option value="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java" />
+        <option value="$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java" />
       </list>
     </option>
   </component>
@@ -303,7 +315,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -340,13 +351,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557199000119" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557483012202" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -367,33 +379,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AVL">
-    <configuration name="最大公约数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="book_note.day01.最大公约数" />
-      <module name="2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="book_note.day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="全排列2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础算法.day01.排列组合问题.全排列2" />
-      <module name="2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="基础算法.day01.排列组合问题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PathSum">
     <configuration name="AVL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="对递归问题的分析.AVL" />
       <module name="2019" />
@@ -407,12 +393,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateIntegerTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.CreateIntegerTree" />
+      <module name="2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="基础算法.DemoTest" />
       <module name="2019" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="基础算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="对递归问题的分析.PathSum" />
+      <module name="2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="对递归问题的分析.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -499,19 +511,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.最大公约数" />
-      <item itemvalue="Application.全排列2" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.DemoTest" />
       <item itemvalue="Application.AVL" />
+      <item itemvalue="Application.CreateIntegerTree" />
+      <item itemvalue="Application.PathSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathSum" />
         <item itemvalue="Application.AVL" />
+        <item itemvalue="Application.CreateIntegerTree" />
         <item itemvalue="Application.DemoTest" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.全排列2" />
-        <item itemvalue="Application.最大公约数" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +556,8 @@
       <workItem from="1555743501106" duration="5929000" />
       <workItem from="1557066167359" duration="1283000" />
       <workItem from="1557154507969" duration="516000" />
-      <workItem from="1557198469641" duration="677000" />
+      <workItem from="1557198469641" duration="5136000" />
+      <workItem from="1557457372789" duration="6594000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -595,16 +608,23 @@
       <option name="project" value="LOCAL" />
       <updated>1557154999755</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提前结束递归">
+      <created>1557199169947</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557199169947</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38289000" />
+    <option name="totallyTimeSpent" value="49342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -613,8 +633,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39344263" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35573772" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.11639344" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40655738" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -648,7 +668,8 @@
     <MESSAGE value="修改二分查找" />
     <MESSAGE value="对递归的思考" />
     <MESSAGE value="对递归的思考-树的高度" />
-    <option name="LAST_COMMIT_MESSAGE" value="对递归的思考-树的高度" />
+    <MESSAGE value="提前结束递归" />
+    <option name="LAST_COMMIT_MESSAGE" value="提前结束递归" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,6 +691,48 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -877,6 +940,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/AVL2.java" />
+    <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/树的高度.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/util/去掉字符串的空格.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -884,24 +955,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/src/util/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/2019/src/util/CreateIntegerTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/树的高度.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="147">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        <state relative-caret-position="114">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/util/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
         </state>
       </provider>
     </entry>
