@@ -4,12 +4,12 @@ import util.TreeNode;
 
 /**
  * <Description>
- *
+ *  只要左子树不满足情况，就退出递归
  * @author wangxi
  */
 public class AVL {
     public static void main(String[] args) {
-        TreeNode F = new TreeNode("E", null, null);
+        TreeNode F = new TreeNode("F", null, null);
         TreeNode E = new TreeNode("E", null, null);
         TreeNode D = new TreeNode("D", null, E);
         TreeNode B = new TreeNode("B", null, D);
@@ -30,11 +30,12 @@ public class AVL {
         if (root == null) {
             return 0;
         }
+        int left = dfs(root.left);
+        // 只要左子树不满足情况，就退出递归
         // 增加递归退出条件，需要放在递归的前面，可以防止无畏的递归。只要找到一个false就可以退出
         if (flag == false) {
             return 0;
         }
-        int left = dfs(root.left);
         int right = dfs(root.right);
         if (Math.abs(left - right) > 1) {
             flag = false;
