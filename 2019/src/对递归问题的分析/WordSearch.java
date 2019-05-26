@@ -1,11 +1,15 @@
-package 基础算法;
+package 对递归问题的分析;
 
 /**
  * <Description>
  *
  * @author wangxi
  */
-public class Solution {
+public class WordSearch {
+    public static void main(String[] args) {
+        char[][] board = {{'A','B','C','E'}, {'S','F','C','S'}, {'A','D','E','E'}};
+        new WordSearch().exist(board, "ASFD");
+    }
     public boolean exist(char[][] board, String word) {
         if (board == null || board.length <= 0) {
             return false;
@@ -41,13 +45,6 @@ public class Solution {
         }
         flag[i][j] = false;
         return false;
-    }
-
-    public static void main(String[] args) {
-        char[][] board = {{'A','B','C','E'}, {'S','F','C','S'}, {'A','D','E','E'}};
-
-        Solution solution = new Solution();
-        solution.exist(board, "ABC");
     }
 }
 

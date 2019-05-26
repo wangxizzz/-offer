@@ -9,6 +9,7 @@ import util.CreateIntegerTree;
  */
 public class PathSum {
 
+    public int age;
 
 public class TreeNode {
   int val;
@@ -20,10 +21,19 @@ public class TreeNode {
     public static void main(String[] args) {
         String data = "5 4 8 11 null 13 4 7 2 null null null 1 null null null null null null ";
 
-        CreateIntegerTree.TreeNode root = CreateIntegerTree.deserialize(data);
-        System.out.println(root.left);
+        //CreateIntegerTree.TreeNode root = CreateIntegerTree.deserialize(data);
+        //System.out.println(root.left);
 
-        System.out.println(new PathSum().hasPathSum(root, 22));
+        //System.out.println(new PathSum().hasPathSum(root, 22));
+
+        PathSum s1 = new PathSum();
+        s1.age = 100;
+        // s2与s1指向同一块内存区域
+        PathSum s2 = s1;
+        s2.age = 33;
+        System.out.println(s1.hashCode());
+        System.out.println(s2.hashCode());
+        System.out.println(s1.age);
     }
 
     public boolean hasPathSum(CreateIntegerTree.TreeNode root, int sum) {
@@ -43,7 +53,7 @@ public class TreeNode {
             return true;
         }
         boolean l = helper(root.left, sum, rest - root.val);
-        // 提前结束递归
+        // 提前结束递归，不让它进入右子树
         if (l) {
             return true;
         }

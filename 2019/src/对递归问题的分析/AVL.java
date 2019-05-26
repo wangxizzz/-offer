@@ -2,6 +2,9 @@ package 对递归问题的分析;
 
 import util.TreeNode;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+
 /**
  * <Description>
  *  只要左子树不满足情况，就退出递归
@@ -15,7 +18,6 @@ public class AVL {
         TreeNode B = new TreeNode("B", null, D);
         TreeNode C = new TreeNode("C", null, F);
         TreeNode root = new TreeNode("A", B, C);
-
         System.out.println(isBalanced(root));
     }
     private static boolean flag = true;
