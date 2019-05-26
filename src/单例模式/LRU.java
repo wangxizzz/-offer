@@ -33,6 +33,11 @@ public class LRU<K, V> {
     }
 
     private void moveToFirst(Node<K, V> node) {
+        if (first == null || last == null) {
+            first = last = node;
+            return;
+        }
+        // 先把当前节点删掉，然后重新添加到双向链表的头部
         if (node == first) {
             return;
         } else if (node == last) {
@@ -41,10 +46,7 @@ public class LRU<K, V> {
             node.next.pre = node.pre;
             node.pre.next = node.next;
         }
-        if (first == null || last == null) {
-            first = last = node;
-            return;
-        }
+        // 添加节点在头部
         node.next = first;
         first.pre = node;
         first = node;
