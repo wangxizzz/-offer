@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Maze01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/背景.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,9 +49,9 @@
     <session id="816264612">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="12" />
+          <entry key="project.open.time.1" value="13" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
@@ -59,30 +60,30 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="3234" />
-          <entry key="md" value="12" />
-          <entry key="txt" value="138" />
+          <entry key="java" value="3796" />
+          <entry key="md" value="19" />
+          <entry key="txt" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3234" />
-          <entry key="Markdown" value="12" />
-          <entry key="PLAIN_TEXT" value="139" />
+          <entry key="JAVA" value="3796" />
+          <entry key="Markdown" value="19" />
+          <entry key="PLAIN_TEXT" value="147" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="113" />
-          <entry key="md" value="7" />
+          <entry key="java" value="115" />
+          <entry key="md" value="8" />
           <entry key="txt" value="2" />
           <entry key="随手小记" value="1" />
         </counts>
@@ -91,29 +92,24 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="113" />
-          <entry key="Markdown" value="7" />
+          <entry key="JAVA" value="115" />
+          <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/SortList.java">
+        <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Maze01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/util/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="-57">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <folding>
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -180,6 +176,8 @@
         <option value="$PROJECT_DIR$/2019/src/day01/LRUCache.java" />
         <option value="$PROJECT_DIR$/2019/src/day01/LRULeetcode146.java" />
         <option value="$PROJECT_DIR$/2019/src/对递归问题的分析/SortList.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Maze01.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/背景.md" />
       </list>
     </option>
   </component>
@@ -328,8 +326,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -353,44 +349,43 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="基础算法" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="对递归问题的分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="常见的排序算法实现" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="常见的排序算法实现" type="462c0819:PsiDirectoryNode" />
+              <item name="基础算法" type="462c0819:PsiDirectoryNode" />
               <item name="day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="基础算法" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+              <item name="走迷宫" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558969832599" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559140466918" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -535,7 +530,8 @@
       <workItem from="1558061805133" duration="4344000" />
       <workItem from="1558697442562" duration="628000" />
       <workItem from="1558878026907" duration="7111000" />
-      <workItem from="1558956911476" duration="3091000" />
+      <workItem from="1558956911476" duration="3199000" />
+      <workItem from="1559139275033" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -642,17 +638,23 @@
       <option name="project" value="LOCAL" />
       <updated>1558949666510</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="对链表归并">
+      <created>1558969914656</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1558969914656</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76982000" />
+    <option name="totallyTimeSpent" value="78594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23146747" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -662,7 +664,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25409836" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2442623" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2442623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -734,7 +736,8 @@
     <MESSAGE value="更新LRU" />
     <MESSAGE value="update LRU" />
     <MESSAGE value="leetcode LRU" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode LRU" />
+    <MESSAGE value="对链表归并" />
+    <option name="LAST_COMMIT_MESSAGE" value="对链表归并" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -813,12 +816,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/SortList.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/SortList.java</url>
           <line>54</line>
           <properties />
           <option name="timeStamp" value="35" />
@@ -827,14 +824,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" />
-    <entry file="file://$PROJECT_DIR$/src/demos/算法文章/大数相乘.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/基础算法/DemoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1119,7 +1108,28 @@
     <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/SortList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/背景.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="45" selection-start-column="45" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Maze01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
