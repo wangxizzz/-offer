@@ -35,7 +35,7 @@ public class PalindromePartitioning {
             }
 
         }
-        // 方法结束，也会回退
+        // 方法结束，也会回退.递归回退，所有的变量也会回退到当初压入线程栈的变量值。
     }
 
     private boolean isPalindrome(String s) {

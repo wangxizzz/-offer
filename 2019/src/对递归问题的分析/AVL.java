@@ -35,9 +35,9 @@ public class AVL {
         int left = dfs(root.left);
         // 只要左子树不满足情况，就退出递归
         // 增加递归退出条件，需要放在递归的前面，可以防止无畏的递归。只要找到一个false就可以退出
-        if (flag == false) {
-            return 0;
-        }
+//        if (flag == false) {
+//            return 0;
+//        }
         int right = dfs(root.right);
         if (Math.abs(left - right) > 1) {
             flag = false;

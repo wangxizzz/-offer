@@ -28,6 +28,7 @@ import java.util.*;
  * 0 1 1 1 0
  * 0 0 0 1 0
  * @author wangxi
+ * BFS可以找到最短路径，因为它是一层一层的找
  * 参考网址：https://blog.csdn.net/wuhengde/article/details/18733927
  */
 public class MazeByBFS {
