@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/ValidateBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByBFS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByDFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByDFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019/src/对递归问题的分析/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/对递归问题的分析/PalindromePartitioning.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +49,7 @@
     <session id="816264612">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="13" />
           <entry key="project.open.time.12" value="1" />
@@ -61,33 +57,34 @@
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="5476" />
+          <entry key="java" value="5823" />
           <entry key="md" value="33" />
-          <entry key="txt" value="154" />
+          <entry key="txt" value="160" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5476" />
+          <entry key="JAVA" value="5823" />
           <entry key="Markdown" value="33" />
-          <entry key="PLAIN_TEXT" value="160" />
+          <entry key="PLAIN_TEXT" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="129" />
+          <entry key="java" value="133" />
           <entry key="md" value="9" />
           <entry key="txt" value="2" />
           <entry key="随手小记" value="1" />
@@ -97,7 +94,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="129" />
+          <entry key="JAVA" value="133" />
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
@@ -105,89 +102,25 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByBFS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="131" column="1" lean-forward="true" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByDFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/ValidateBinarySearchTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/树的高度.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/PalindromePartitioning.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+            <state relative-caret-position="220">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#2189#2190#0" expanded="true" />
+                <element signature="e#2248#2249#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/SortList.java">
+        <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByBFS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/PathSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="54" column="60" lean-forward="true" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/WordSearch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            <state relative-caret-position="114">
+              <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -256,11 +189,11 @@
         <option value="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Solution.java" />
         <option value="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Maze01.java" />
         <option value="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/背景.md" />
-        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByBFS.java" />
-        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByDFS.java" />
         <option value="$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java" />
         <option value="$PROJECT_DIR$/2019/src/对递归问题的分析/ValidateBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/2019/src/对递归问题的分析/PalindromePartitioning.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByBFS.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByDFS.java" />
       </list>
     </option>
   </component>
@@ -409,8 +342,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -499,13 +430,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559226613792" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559272327576" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -529,7 +462,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidateBinarySearchTree">
+  <component name="RunManager" selected="Application.MazeByDFS">
     <configuration name="AVL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="对递归问题的分析.AVL" />
       <module name="2019" />
@@ -556,8 +489,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础算法.day01.走迷宫.Solution" />
+    <configuration name="MazeByDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础算法.day01.走迷宫.MazeByDFS" />
       <module name="2019" />
       <extension name="coverage">
         <pattern>
@@ -569,12 +502,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="对递归问题的分析.SortList" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础算法.day01.走迷宫.Solution" />
       <module name="2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="对递归问题的分析.*" />
+          <option name="PATTERN" value="基础算法.day01.走迷宫.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -596,19 +529,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SortList" />
       <item itemvalue="Application.MazeByBFS" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.AVL" />
       <item itemvalue="Application.ValidateBinarySearchTree" />
+      <item itemvalue="Application.MazeByDFS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MazeByDFS" />
+        <item itemvalue="Application.MazeByBFS" />
         <item itemvalue="Application.ValidateBinarySearchTree" />
         <item itemvalue="Application.AVL" />
-        <item itemvalue="Application.MazeByBFS" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.SortList" />
       </list>
     </recent_temporary>
   </component>
@@ -652,7 +585,8 @@
       <workItem from="1558878026907" duration="7111000" />
       <workItem from="1558956911476" duration="3199000" />
       <workItem from="1559139275033" duration="2036000" />
-      <workItem from="1559201319780" duration="9279000" />
+      <workItem from="1559201319780" duration="9615000" />
+      <workItem from="1559270539274" duration="1756000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -780,16 +714,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559208487507</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="判断BST.">
+      <created>1559226973164</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559226973164</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88405000" />
+    <option name="totallyTimeSpent" value="90497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19667171" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -798,8 +740,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40819672" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5622951" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30491802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -873,7 +815,8 @@
     <MESSAGE value="leetcode LRU" />
     <MESSAGE value="对链表归并" />
     <MESSAGE value="BFS Maze" />
-    <option name="LAST_COMMIT_MESSAGE" value="BFS Maze" />
+    <MESSAGE value="判断BST." />
+    <option name="LAST_COMMIT_MESSAGE" value="判断BST." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -921,18 +864,6 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PalindromePartitioning.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/PalindromePartitioning.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2019/src/对递归问题的分析/SortList.java</url>
           <line>54</line>
           <properties />
@@ -955,6 +886,12 @@
           <line>39</line>
           <properties />
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByDFS.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1169,20 +1106,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Solution.java" />
     <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/背景.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1193,13 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByBFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="131" column="1" lean-forward="true" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/对递归问题的分析/AVL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -1207,13 +1125,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1267,6 +1178,24 @@
             <element signature="imports" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByBFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="66" column="29" lean-forward="true" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/MazeByDFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding>
+            <element signature="e#2189#2190#0" expanded="true" />
+            <element signature="e#2248#2249#0" expanded="true" />
           </folding>
         </state>
       </provider>

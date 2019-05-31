@@ -3,7 +3,14 @@ package 基础算法.day01.走迷宫;
 import java.util.*;
 /**
  * <Description>
- *
+ 测试case1:
+
+5 5
+0 1 0 0 0
+0 1 0 1 0
+0 0 0 0 0
+0 1 1 1 0
+0 0 0 1 0
  * @author wangxi
  */
 public class MazeByDFS {
@@ -30,16 +37,30 @@ public class MazeByDFS {
         }
         int[][] visited = new int[row][col];
         Stack<Point> path = new Stack<>();   // 用于输出路径
-        helper(nums, visited, path);
-        while (!result.isEmpty()) {
-            System.out.println(result.pop());
-        }
+        helper(nums, visited, path, 0, 0);
+        System.out.println(path);
     }
-
-    private static Stack<String> result = new Stack<>();
-
-    private static void helper(int[][] nums, int[][] visited, Stack<Point> path) {
-
+    private static boolean flag = false;   // 是否找到结果的标志
+    private static void helper(int[][] nums, int[][] visited, Stack<Point> path, int i, int j) {
+        if (i < 0 || i >= nums.length || j < 0 || j >= nums[0].length || nums[i][j] == 1 || visited[i][j] == 1 || flag) {
+            return;
+        }
+        path.push(new Point(i, j));
+        visited[i][j] = 1;
+        if (i == nums.length - 1 && j == nums[0].length - 1) {
+            flag = true;
+            return;
+        }
+        // 上、下、左、右
+        helper(nums, visited, path, i - 1, j);
+        helper(nums, visited, path, i + 1, j);
+        helper(nums, visited, path, i, j - 1);
+        helper(nums, visited, path, i, j + 1);
+        // 结果找到了，就不出栈
+        if (!flag) {
+            path.pop();
+            visited[i][j] = 0;
+        }
     }
 
     private static class Point {
@@ -58,6 +79,11 @@ public class MazeByDFS {
         public Point(int x, int y) {
             this.x = x;
             this.y = y;
+        }
+
+        @Override
+        public String toString() {
+            return "(" + x + "," + y + ")";
         }
     }
 }
