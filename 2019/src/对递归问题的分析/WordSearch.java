@@ -43,6 +43,7 @@ public class WordSearch {
                 || exist(board, word, rows, cols, i, j - 1, index + 1, flag)) {
             return true;
         }
+        // 需不需要家这句话，针对不同的应用场景（可以对比NumberOfIsland题目）
         flag[i][j] = false;
         return false;
     }
