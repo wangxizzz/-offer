@@ -1,2 +1,1 @@
-# -offer
-基础算法总结
+```data structure and algorithm is the soul of programming.```
