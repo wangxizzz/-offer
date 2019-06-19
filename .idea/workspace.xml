@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2019/src/day01/字典树的应用/WordSearchII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2019/src/基础算法/day01/interview/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,9 +48,9 @@
     <session id="816264612">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.0" value="9" />
-          <entry key="project.open.time.1" value="16" />
+          <entry key="project.open.time.1" value="17" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -62,21 +62,21 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="42" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="11705" />
+          <entry key="java" value="12508" />
           <entry key="md" value="101" />
           <entry key="txt" value="229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11705" />
+          <entry key="JAVA" value="12508" />
           <entry key="Markdown" value="101" />
           <entry key="PLAIN_TEXT" value="236" />
         </counts>
@@ -86,7 +86,7 @@
           <entry key="class" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="3" />
-          <entry key="java" value="186" />
+          <entry key="java" value="190" />
           <entry key="md" value="12" />
           <entry key="txt" value="2" />
           <entry key="xml" value="1" />
@@ -97,7 +97,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="JAVA" value="186" />
+          <entry key="JAVA" value="190" />
           <entry key="Markdown" value="12" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="XML" value="1" />
@@ -108,14 +108,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2019/src/day01/字典树的应用/WordSearchII.java">
+        <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/interview/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="353">
+              <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/review/二分查找.java" />
         <option value="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合2.java" />
         <option value="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合3.java" />
         <option value="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/全排列2.java" />
@@ -204,6 +201,7 @@
         <option value="$PROJECT_DIR$/2019/src/day01/字典树的应用/AddAndSearchWord.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/2019/src/day01/字典树的应用/WordSearchII.java" />
+        <option value="$PROJECT_DIR$/2019/src/基础算法/day01/interview/Solution.java" />
       </list>
     </option>
   </component>
@@ -375,21 +373,6 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day01" type="462c0819:PsiDirectoryNode" />
-              <item name="字典树的应用" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="基础算法" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -404,15 +387,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560773987172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560911065499" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -439,7 +422,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddAndSearchWord">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration name="AddAndSearchWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01.字典树的应用.AddAndSearchWord" />
       <module name="2019" />
@@ -479,6 +462,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基础算法.day01.interview.Solution" />
+      <module name="2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基础算法.day01.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="book_note.day02.Solution" />
       <module name="2019" />
@@ -492,33 +488,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01.字典树的应用.Trie" />
-      <module name="2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01.字典树的应用.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Trie" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.CourseScheduleII" />
       <item itemvalue="Application.AddAndSearchWord" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.AddAndSearchWord" />
         <item itemvalue="Application.CourseScheduleII" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Trie" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +556,8 @@
       <workItem from="1560609733667" duration="1257000" />
       <workItem from="1560698573505" duration="1189000" />
       <workItem from="1560750119798" duration="8613000" />
-      <workItem from="1560772310026" duration="1875000" />
+      <workItem from="1560772310026" duration="2544000" />
+      <workItem from="1560909537153" duration="1506000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -768,13 +752,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122422000" />
+    <option name="totallyTimeSpent" value="124597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22995462" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -783,8 +767,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20983607" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39016393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44918033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -936,24 +920,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/全排列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/全排列2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="41" column="70" lean-forward="true" selection-start-line="41" selection-start-column="70" selection-end-line="41" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1224,19 +1194,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/day01/字典树的应用/AddAndSearchWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1797">
+        <state relative-caret-position="1545">
           <caret line="100" column="9" lean-forward="true" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/day01/字典树的应用/WordSearchII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="190">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/组合.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/interview/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="76" column="26" lean-forward="true" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
