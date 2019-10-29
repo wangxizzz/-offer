@@ -1,9 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2019/.gitignore" afterDir="false" />
+    <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="git ignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/book_note/day01/最大公约数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/book_note/day02/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/day01/LRULeetcode146$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/day01/LRULeetcode146.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/day01/Leetcode56MergeIntervals$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/day01/Leetcode56MergeIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/util/CreateIntegerTree$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/util/CreateIntegerTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/util/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/util/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/util/去掉字符串的空格.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/DemoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/多路归并/ExternalSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/全排列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/全排列2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/组合.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/组合2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/组合3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/解法说明.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/走迷宫/MazeByBFS$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/走迷宫/MazeByBFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/走迷宫/MazeByDFS$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/走迷宫/MazeByDFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/走迷宫/背景.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/二叉树镜像.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/二进制中1的个数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/任意大整数相加.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/删除链表的节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/删除链表重复节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/合并两个递增的链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/对称二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/找数组中重复的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/数值的整数次方.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/替换空格.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/输出1到最大n位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day01/链表环的入口节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem56.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem56_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem57.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem57_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem58.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem58_error.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem59.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem59_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem61.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem63.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/Problem65.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/两个链表的第一公共节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/之字形打印二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/二叉树和的路径$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/二叉树和的路径.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/从上到下打印二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/分行打印二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/包含min函数的栈.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/合并两个有序的数组.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/第1500个丑数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/第一次只出现一次的字符.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/超过数组长度一半数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day02/连续子数组的最大和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P10_1斐波那契数列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P10_2员工年龄排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P11旋转数组的最小数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P14剪绳子.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P15_1二进制1的个数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P15_2位运算.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P17_打印从1到最大n位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P18_1删链表重复节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P18_2删除链表重复节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P18删除链表的节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P21奇数位于偶数前面.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P22_1倒数第K个节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P22_2链表中间节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P23链表环的入口节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P24逆转链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P25合并排序链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P27二叉树镜像.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P28对称二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P29顺时针打印矩阵.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P30包含min函数的栈.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P31判断栈的弹出顺序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P32_1上到下打印二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P32_2分行上到下打印.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P32_3之字形打印.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P33_1BST后序序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P33_2BST先序序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P33_3BST中序序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P3_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P3数组重复的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P4递增二维数组找数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P5_1字符的替换.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P5_2两个排序数组的合并.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P5_3两个排序数组的合并.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P6_1倒序输出链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P6_2倒序输出链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P8中序遍历下一个节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P9_1两栈实现队列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/P9_2两个队列实现栈.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/TreeLinkNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part1/p16数值的整数次方.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P34和为某一值的路径$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P34和为某一值的路径.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P35复杂链表的复制$ComplexListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P35复杂链表的复制.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P36BST与双向链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P37序列化二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P38_1字符串的组合.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P38字符串的排列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P39超过一半的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P40最小K个数$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P40最小K个数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P41数据流的中位数$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P41数据流的中位数$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P41数据流的中位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P43n个整数1出现的次数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P44数字序列中某一位的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P45把数组排成最小的数$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P45把数组排成最小的数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P46把数字翻译成字符串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P47礼物的最大价值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P48不含重复字符的最长子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P49丑数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P50_1第一次只出现一次的字符.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P50_2字符流中第一次只出现一次的字符.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P50_3删除String中包含其他串的字符.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P50_4删除字符串中所有重复的字符.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P50_5单词互为变位词.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P52两个链表的第一个公共节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P53_1数字在排序数组出现的次数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P53_2MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P53_3数组数值下标相等元素.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P54BST第K节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P55_1二叉树的深度.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P55_2平衡二叉树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P56_1数组只出现一次的两个数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P56_2数组只出现一次数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P57_1和为s的两个数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P57_2和为s的连续序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P58_1翻转字符串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P58_2左旋转字符串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P59_1滑动窗口最大值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P59_2队列最大值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P61扑克牌中的顺子.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P62圆圈中最后剩下的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P63股票的最大利润.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P64.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/P65两数相加.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/Problem59_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day03/part2/中位数的概念" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day微机房/使奇数位于偶数去前面.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day微机房/删除链表中重复的节点二.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day微机房/输出链表中间节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/day微机房/输出链表的倒数k个节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/demo01/CSDN逻辑题一.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/demo01/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/demo01/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/demo01/IsPrime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/demo01/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/demo01/ReverseList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/demo01/丑数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/demo01/二维数组初始化.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/demo01/回文链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/二叉树的操作/中序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/二叉树的操作/先序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/二叉树的操作/后序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/旋转数组找中位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/最小的数$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/最小的数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/LSC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/MaxSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/NQueen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/TSP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/冒泡排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/堆排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/大数相乘.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/大数相加.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/奇偶链表合并.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/希尔排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/归并排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/最大公共子字符串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/最大字段和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/最长公共子序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/硬币找零_贪心算法.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/货币找零.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/demos/算法文章/货币找零01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/MergeTwoSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/QuickSort01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day01/堆排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day01/最长公共子序列.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/LCS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/二叉树中序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/二叉树先序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/二叉树后序遍历.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/剪绳子问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/十进制变为16进制.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/单例模式/DeadLockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/单例模式/Single2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/单例模式/Single3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/单例模式/Single3$SingleHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/单例模式/Single3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/单例模式/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/堆排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/大数相乘.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/归并排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/快排.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/最大价值礼物.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/最长不含重复字符的子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/最长公共子串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/day02/硬币找零.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/二分查找.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/BST公共父节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/PathSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/删除链表中节点.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/剪绳子问题.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/奇数位于偶数前面.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/对年龄排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/尾到头打印链表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/打印从1到最大n位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/把数字翻译成字符串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/数字序列中某一位的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/数组下标与数值相等元素.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/数组唯一出现的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/最长不含重复字符串的子字符串.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/礼物最大价值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/缺失的数字.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/股票最大利润.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/剑指offer额外题/队列最大值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/插入排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/review/选择排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/ArraysCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/PrintStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/PriorityQueueDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/PriorityQueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/Solution$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/Test01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/Test02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/leetcode/L14_LongestCommonPrefix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/HorseStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/Test0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/元素的组合.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/test01/打印菱形.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/函数split测试.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/判断是否为奇数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/test/字符串输出.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/util/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/util/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/util/去掉字符串的空格.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/LRU$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/LRU.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/Singleton1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/Singleton1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/Singleton2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/Singleton3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/Singleton3$SingletonHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/Singleton3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/单例模式/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day01/JDK自带的排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day01/堆排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day01/归并排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day01/快排.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day01/插入排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day01/选择排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day02/冒泡排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day02/堆排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day02/归并排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day02/快排.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day02/插入排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/常见的排序算法实现/day02/选择排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随手小记" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/Leetcode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/DivTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/SemaphoreDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/SimpleDateFormatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/ThreadLocalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/UnsafeSimpleDateFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/冒泡排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/快速排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/插入排序.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/数组的中位数.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/旋转数组最小值.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/剑指offer/随笔测试/day03/选择排序.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +314,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="266">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2019/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -287,7 +587,7 @@
     <property name="SearchEverywhereHistoryKey" value="LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572350269787" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572350447437" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -424,7 +724,7 @@
       <workItem from="1560909537153" duration="1506000" />
       <workItem from="1569912430508" duration="164000" />
       <workItem from="1572171425752" duration="4943000" />
-      <workItem from="1572350010761" duration="259000" />
+      <workItem from="1572350010761" duration="510000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -636,11 +936,25 @@
       <option name="project" value="LOCAL" />
       <updated>1572350157243</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="git ignore">
+      <created>1572350279889</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1572350279890</updated>
+    </task>
+    <task id="LOCAL-00032" summary="git ignore">
+      <created>1572350312080</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1572350312080</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129963000" />
+    <option name="totallyTimeSpent" value="130214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="689" extended-state="6" />
@@ -659,7 +973,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7386935" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3316583" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.4262295" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3283082" />
@@ -1083,15 +1397,15 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2019/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
