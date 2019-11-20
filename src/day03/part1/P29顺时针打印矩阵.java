@@ -17,10 +17,9 @@ public class P29顺时针打印矩阵 {
         if (num == null || num.length <= 0 || num[0].length <= 0) {
             return;
         }
-        int start = 0;
-        while (num.length > start * 2 && num[0].length > start * 2) {
-            printCycle(num, start);
-            start++;
+        int len = Math.min(num.length, num[0].length);
+        for (int i = 0; 2 * i < len; i++) {
+            printCycle(num, i);
         }
     }
     private static void printCycle(int[][] num, int start) {

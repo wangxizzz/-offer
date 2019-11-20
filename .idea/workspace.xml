@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="git ignore">
-      <change afterPath="$PROJECT_DIR$/2019/src/leecode/array/递归/局部变量与回退/CombinationSum39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019/src/leecode/array/递归/排列组合问题/CombinationSum39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019/src/leecode/测试使用/Test01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/part1/P29顺时针打印矩阵.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/part1/P29顺时针打印矩阵.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,24 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2019/src/leecode/array/递归/局部变量与回退/CombinationSum39.java">
+        <entry file="file://$PROJECT_DIR$/src/day03/part1/P29顺时针打印矩阵.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/leecode/测试使用/Test01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-278">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -69,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2019/src/对递归问题的分析/MaximumPathSum.java" />
         <option value="$PROJECT_DIR$/2019/src/基础算法/day01/排列组合问题/全排列.java" />
         <option value="$PROJECT_DIR$/src/单例模式/LRU.java" />
         <option value="$PROJECT_DIR$/2019/src/day01/LRUCache1.java" />
@@ -120,6 +105,7 @@
         <option value="$PROJECT_DIR$/2019/src/leecode/array/递归/排列组合问题/CombinationSum39.java" />
         <option value="$PROJECT_DIR$/2019/src/leecode/array/递归/局部变量与回退/CombinationSum39.java" />
         <option value="$PROJECT_DIR$/2019/src/leecode/测试使用/Test01.java" />
+        <option value="$PROJECT_DIR$/src/day03/part1/P29顺时针打印矩阵.java" />
       </list>
     </option>
   </component>
@@ -267,6 +253,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,68 +276,32 @@
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leecode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leecode" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leecode" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-              <item name="递归" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leecode" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-              <item name="递归" type="462c0819:PsiDirectoryNode" />
-              <item name="局部变量与回退" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leecode" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-              <item name="递归" type="462c0819:PsiDirectoryNode" />
-              <item name="排列组合问题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leecode" type="462c0819:PsiDirectoryNode" />
-              <item name="测试使用" type="462c0819:PsiDirectoryNode" />
+              <item name="day03" type="462c0819:PsiDirectoryNode" />
+              <item name="part1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573399691288" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574264243995" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -379,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test01">
+  <component name="RunManager" selected="Application.P29顺时针打印矩阵">
     <configuration name="CombinationSum39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.array.递归.排列组合问题.CombinationSum39" />
       <module name="2019" />
@@ -393,12 +345,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="基础算法.DemoTest" />
+    <configuration name="KthInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.array.KthInSortedArray" />
       <module name="2019" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="基础算法.*" />
+          <option name="PATTERN" value="leecode.array.递归.排列组合问题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -406,12 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.array.KthInSortedArray" />
-      <module name="2019" />
+    <configuration name="P29顺时针打印矩阵" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.part1.P29顺时针打印矩阵" />
+      <module name="剑指offer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leecode.array.递归.排列组合问题.*" />
+          <option name="PATTERN" value="day03.part1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -446,19 +398,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DemoTest" />
       <item itemvalue="Application.KthInSortedArray" />
       <item itemvalue="Application.ThreeSum" />
       <item itemvalue="Application.CombinationSum39" />
       <item itemvalue="Application.Test01" />
+      <item itemvalue="Application.P29顺时针打印矩阵" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P29顺时针打印矩阵" />
         <item itemvalue="Application.Test01" />
         <item itemvalue="Application.CombinationSum39" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.KthInSortedArray" />
-        <item itemvalue="Application.DemoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +470,9 @@
       <workItem from="1569912430508" duration="164000" />
       <workItem from="1572171425752" duration="4943000" />
       <workItem from="1572350010761" duration="668000" />
-      <workItem from="1573390782476" duration="3517000" />
+      <workItem from="1573390782476" duration="4224000" />
+      <workItem from="1574091398602" duration="140000" />
+      <workItem from="1574181300716" duration="737000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -762,12 +716,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133889000" />
+    <option name="totallyTimeSpent" value="135473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="689" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24878837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25686592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -776,7 +731,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2160804" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2160804" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30150753" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -943,7 +898,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Stack.java" />
     <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Demo.java" />
     <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/Solution.java" />
     <entry file="file://$PROJECT_DIR$/2019/src/基础算法/day01/走迷宫/背景.md">
@@ -1147,9 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,11 +1182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/leecode/测试使用/Test01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="280">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1255,8 +1203,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/leecode/array/递归/局部变量与回退/CombinationSum39.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        <state relative-caret-position="112">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day03/part1/P29顺时针打印矩阵.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
