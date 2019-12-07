@@ -9,6 +9,7 @@ import java.util.Set;
  * @Author wangxi
  * @Time 2019/12/7 18:06
  * AbstractList重写了hashCode与equals()方法。因此可以使用Set存储
+ * 注意：List{1,2,3} 和 List{3,2,1}的equals方法是不相等的。
  */
 public class TestSet {
     public static void main(String[] args) {
