@@ -7,6 +7,7 @@ import java.util.Arrays;
  * @Description :
  * @Date: 2018/7/25 0025 21:16
  * https://www.javazhiyin.com/57579.html
+ * 堆排序是一种选择排序，整体主要由构建初始堆+交换堆顶元素和末尾元素并重建堆两部分组成。
  */
 public class 堆排序 {
     // 不稳定排序，时间复杂度O(nlongn)
