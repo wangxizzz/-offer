@@ -6,46 +6,51 @@ import java.util.Arrays;
  * @Author: wangxi
  * @Description :
  * @Date: 2018/7/25 0025 21:16
+ * https://www.javazhiyin.com/57579.html
  */
 public class 堆排序 {
     // 不稳定排序，时间复杂度O(nlongn)
-    public static void sort(int[] nums){
-        if (nums == null || nums.length <= 0) {
-            return;
+    public static void sort(int[] arr) {
+        //1.构建大顶堆
+        for (int i = arr.length / 2 - 1; i >= 0; i--) {
+            //从第一个非叶子结点从下至上，从右至左调整结构
+            adjustHeap(arr, i, arr.length);
         }
-        // 首先对整个数组进行调整
-        for (int i = (nums.length / 2) - 1; i >= 0; i--) {  // 找到第一个非叶子节点
-            adjustHeap(nums, i, nums.length);
+        //2.调整堆结构+交换堆顶元素与末尾元素
+        for (int j = arr.length - 1; j > 0; j--) {
+            swap(arr, 0, j);//将堆顶元素与末尾元素进行交换
+            adjustHeap(arr, 0, j);//重新对堆进行调整
         }
-        // 对未排好序的部分进行调整
-        for (int j = nums.length - 1; j >= 0; j--) {
-            swap(nums, 0, j);   // 每次第一个元素（也是二叉树的root节点）是最大的元素
-            adjustHeap(nums, 0, j);  // j表示待调整数据的长度
-        }
+
     }
-    public static void adjustHeap(int[] nums, int start, int length){
-        int temp = nums[start];   // 保存root节点，因为这个节点的值可能需要与其他值交换
-        for (int k = 2*start + 1; k < length; k++) {   // 从根节点的左叶子节点开始比较
-            if (k + 1 < length && nums[k + 1] > nums[k]) {
+
+    public static void adjustHeap(int[] arr, int i, int length) {
+        int temp = arr[i];//先取出当前元素i
+        for (int k = i * 2 + 1; k < length; k = k * 2 + 1) {   // 注意for循环：递归把最大节点提上来(最小堆)
+            //从i结点的左子结点开始，也就是2i+1处开始
+            if (k + 1 < length && arr[k] < arr[k + 1]) {
+                //如果左子结点小于右子结点，k指向右子结点
                 k++;
             }
-            if (nums[k] > temp) {
-                nums[start] = nums[k];
-                start = k;
-            }else{
+            if (arr[k] > temp) {
+                //如果子节点大于父节点，将子节点值赋给父节点（不用进行交换）
+                arr[i] = arr[k];
+                i = k;
+            } else {
                 break;
             }
         }
-        nums[start] = temp;
+        arr[i] = temp;//将temp值放到最终合适的位置
     }
 
-    public static void swap(int[] nums, int i, int j){
+    public static void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
     }
+
     public static void main(String[] args) {
-        int[] nums = {5,6,4,3,2,1,8};
+        int[] nums = {5, 6, 4, 3, 2, 1, 8};
         sort(nums);
         System.out.println(Arrays.toString(nums));
     }
