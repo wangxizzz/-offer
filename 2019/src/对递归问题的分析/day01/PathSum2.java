@@ -27,15 +27,16 @@ public class PathSum2 {
         return result;
     }
     private void pathSum(CreateIntegerTree.TreeNode root, List<List<Integer>> result, List<Integer> list, int sum, int rest) {
-        if (rest < 0) {
-            return;
-        }
+//        if (rest < 0) {
+//            return;
+//        }
         if (root == null) {
             return;
         }
         list.add(root.val);
         if (root.val == rest && root.left == null && root.right == null) {
             result.add(new ArrayList<>(list));
+            // 如果没加这一步，那么会少弹出一个元素。
             list.remove(list.size() - 1);
             return;
         }

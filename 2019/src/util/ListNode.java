@@ -30,5 +30,9 @@ public class ListNode {
 		}
 	}
 
+	@Override
+	public String toString() {
+		return this.val + "";
+	}
 }
 
