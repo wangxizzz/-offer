@@ -22,8 +22,10 @@ public class CreateIntegerTree {
     }
 
     public static void main(String[] args) {
-        String data = "1 2 3 n n 4 5 n n n n";
-        System.out.println(deserialize(data).left);
+        String data = "1 2 3 null null 4 5 null null null null";
+        TreeNode head = deserialize(data);
+
+        System.out.println(serialize(head));
     }
     // 利用BFS
     // Encodes a tree to a single string.
@@ -73,6 +75,8 @@ public class CreateIntegerTree {
         }
         return root;
     }
+
+
 }
 
 

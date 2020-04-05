@@ -19,9 +19,11 @@ public class TestSet {
         list.add(2);
         result.add(list);
         List<Integer> list2 = new ArrayList<>();
+        list2.add(2);
         list2.add(1);
-        list2.add(2);
-        list2.add(2);
+//        list2.add(2);
+        System.out.println(list.hashCode());
+        System.out.println(list2.hashCode());
         System.out.println(result.add(list2));
     }
 }
