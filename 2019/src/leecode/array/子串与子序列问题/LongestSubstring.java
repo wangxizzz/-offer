@@ -6,8 +6,7 @@ package leecode.array.子串与子序列问题;
  *
  * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
  *
- * 获取最大
- * 求出最长子串与和最大的子序列？？
+ * 这道题 其实是采用的滑动窗口的思想
  */
 public class LongestSubstring {
     public int lengthOfLongestSubstring(String s) {

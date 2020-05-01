@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/LongestPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,39 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/LongestSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/MaxSubArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/LongestPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-              <folding>
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -357,7 +324,7 @@
     <property name="SearchEverywhereHistoryKey" value="LRU&#9;PSI&#9;JAVA://day01.LRULeetcode146&#10;全排列&#9;FILE&#9;file:///Users/wangxi/ideaProjects/Algorithm/2019/src/基础算法/day01/排列组合问题/全排列2.java&#10;Abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractList.java&#10;AbstractLis&#9;PSI&#9;JAVA://java.util.AbstractList&#10;PathS&#9;PSI&#9;JAVA://对递归问题的分析.day01.PathSum&#10;BST&#9;PSI&#9;JAVA://对递归问题的分析.day01.ValidateBinarySearchTree&#10;平衡&#9;PSI&#9;JAVA://day03.part2.P55_2平衡二叉树&#10;Priori&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/PriorityBlockingQueue.java&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;ArrayLIst&#9;PSI&#9;JAVA://java.util.ArrayList&#10;WordS&#9;FILE&#9;file:///Users/wangxi/ideaProjects/Algorithm/2019/src/对递归问题的分析/day01/WordSearch.java&#10;LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588312411177" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588323427817" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -554,7 +521,7 @@
       <workItem from="1586066661830" duration="15274000" />
       <workItem from="1586496919097" duration="5324000" />
       <workItem from="1588253533845" duration="6505000" />
-      <workItem from="1588308185071" duration="2733000" />
+      <workItem from="1588308185071" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -833,12 +800,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211231000" />
+    <option name="totallyTimeSpent" value="211469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="689" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23021002" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23021002" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -847,7 +814,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26132405" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26132405" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35888502" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -955,12 +922,6 @@
           <line>21</line>
           <properties />
           <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/LongestPalindrome.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1305,13 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/LongestSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/MaxSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -1321,12 +1275,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="198">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <element signature="e#1045#1046#0" expanded="true" />
             <element signature="e#1081#1082#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/LongestSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
         </state>
       </provider>
     </entry>
