@@ -9,7 +9,7 @@ import util.CreateIntegerTree;
  *
  * https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
  */
-public class constructBinaryTreeFromPreorderAndInorderTraversal {
+public class ConstructBinaryTreeFromPreorderAndInorderTraversal {
     public CreateIntegerTree.TreeNode buildTree(int[] preorder, int[] inorder) {
         if (preorder == null || preorder.length <= 0 || inorder == null || inorder.length <= 0) {
             return null;
