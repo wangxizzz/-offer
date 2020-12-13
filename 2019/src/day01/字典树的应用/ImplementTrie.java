@@ -3,21 +3,30 @@ package day01.字典树的应用;
 /**
  * <Description>
  * 实现字典树
- * refer website:https://leetcode.com/problems/implement-trie-prefix-tree/discuss/281717/Java74ms
+ * https://leetcode-cn.com/problems/implement-trie-prefix-tree/
+ *
+ * 本质是多叉树的运用
+ *
  * @author wangxi
  */
 public class ImplementTrie {
-    class Node {
-        Node[] children;
-        boolean tag;
-        public Node() {
-            children = new Node[26];
+    public class TrieNode {
+        public boolean isWord;
+        public TrieNode[] children;
+        public char val;
+
+        public TrieNode(TrieNode[] children) {
+            this.children = children;
+            isWord = false;
         }
     }
-    private Node root;
+
+    TrieNode root;
+
     /** Initialize your data structure here. */
     public ImplementTrie() {
-        root = new Node();
+        TrieNode[] children = new TrieNode[26];
+        root = new TrieNode(children);
     }
 
     /** Inserts a word into the trie. */
@@ -25,17 +34,17 @@ public class ImplementTrie {
         if (word == null || word.length() <= 0) {
             return;
         }
-        Node cur = root;
-        char[] nums = word.toCharArray();
-        Node[] children = cur.children;
-        for (char c : nums) {
-            if (children[c - 'a'] == null) {
-                children[c - 'a'] = new Node();
+        TrieNode p = root;
+        for (int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            int index = c - 'a';
+            if (p.children[index] == null) {
+                p.children[index] = new TrieNode(new TrieNode[26]);
+                p.children[index].val = c;
             }
-            cur = children[c - 'a'];
-            children = cur.children;
+            p = p.children[index];
         }
-        cur.tag = true;
+        p.isWord = true;
     }
 
     /** Returns if the word is in the trie. */
@@ -43,17 +52,16 @@ public class ImplementTrie {
         if (word == null || word.length() <= 0) {
             return false;
         }
-        Node cur = root;
-        Node[] children = cur.children;
-        char[] nums = word.toCharArray();
-        for (char c : nums) {
-            if (children[c - 'a'] == null) {
+        TrieNode p = root;
+        for (int i = 0; i < word.length(); i++) {
+            char c = word.charAt(i);
+            int index = c - 'a';
+            if (p.children[index] == null) {
                 return false;
             }
-            cur = children[c - 'a'];
-            children = cur.children;
+            p = p.children[index];
         }
-        return cur.tag;
+        return p.isWord;
     }
 
     /** Returns if there is any word in the trie that starts with the given prefix. */
@@ -61,15 +69,14 @@ public class ImplementTrie {
         if (prefix == null || prefix.length() <= 0) {
             return false;
         }
-        Node cur = root;
-        Node[] children = cur.children;
-        char[] nums = prefix.toCharArray();
-        for (char c : nums) {
-            if (children[c - 'a'] == null) {
+        TrieNode p = root;
+        for (int i = 0; i < prefix.length(); i++) {
+            char c = prefix.charAt(i);
+            int index = c - 'a';
+            if (p.children[index] == null) {
                 return false;
             }
-            cur = children[c - 'a'];
-            children = cur.children;
+            p = p.children[index];
         }
         return true;
     }
