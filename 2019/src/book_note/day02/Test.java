@@ -9,29 +9,47 @@ import java.util.List;
  * @author wangxi
  */
 public class Test {
+
     public static void main(String[] args) {
-        new Test().getRow(3);
+        List<String> list = new ArrayList<>();
+        String s = "abc";
+        list.add(s);
+        String ss = s;
+        s = s + 'g';
+        System.out.println(ss);
+        System.out.println(list);
+
+        new Test().permutation("abc");
     }
-    public List<Integer> getRow(int rowIndex) {
-        List<Integer> result = new ArrayList<>();
-        if (rowIndex < 1) {
-            return result;
+
+
+    public String[] permutation(String s) {
+        if (s == null || s.length() <= 0) {
+            String[] error = new String[0];
+            return error;
         }
-        for (int i = 0; i <= rowIndex; i++) {
-            result.add(1);
-            if (i == 0) {
-                continue;
-            }
-            if (i > 1) {
-                int size = result.size();
-                for (int j = size - 1; j > 0; j--) {
-                    int val = result.get(j) + result.get(j - 1);
-                    result.set(j, val);
-                }
-            }
-            result.add(1);
+        List<String> list = new ArrayList<>();
+        int len = list.size();
+        String[] result = new String[len];
+        for (int i = 0; i < len; i++) {
+            result[i] = list.get(i);
         }
         return result;
+    }
+
+    private void dfs(String s, List<String> list, String str) {
+        if (str.length() == s.length()) {
+            String ss = str;
+            list.add(ss);
+            return;
+        }
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (str.contains(c + "")) {
+                continue;
+            }
+            dfs(s, list, str + c);
+        }
     }
 }
 
