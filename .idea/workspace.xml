@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bb8182a-6812-4d51-905f-7604379fab52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2019/src/leecode/面试题/LengthOfLongestSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019/src/leecode/面试题/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019/src/book_note/day02/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/2019/src/book_note/day02/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2019/src/leecode/array/子串与子序列问题/LongestSubstring.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/2019/book_note/day02/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2019/book_note/day02/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019/leecode/array/子串与子序列问题/LongestSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/子集问题/TestSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/全排列.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/全排列2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/组合.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/组合2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/组合3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2019/基础算法/day01/排列组合问题/解法说明.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,14 +71,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2019/src/leecode/面试题/LengthOfLongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
-              <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+            <state relative-caret-position="536">
+              <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2019/src/leecode/链表/MergeSortLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-173">
+              <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2019/src/leecode/链表/链表节点引用问题/Main01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -480,6 +486,24 @@
               <item name="2019" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leecode" type="462c0819:PsiDirectoryNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="链表串起来的问题" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
+              <item name="链表" type="462c0819:PsiDirectoryNode" />
+              <item name="链表节点引用问题" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
               <item name="面试题" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -586,7 +610,7 @@
     <property name="SearchEverywhereHistoryKey" value="Comple&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/java/util/concurrent/CompletableFuture.class&#10;LRU&#9;PSI&#9;JAVA://day01.LRULeetcode146&#10;全排列&#9;FILE&#9;file:///Users/wangxi/ideaProjects/Algorithm/2019/src/基础算法/day01/排列组合问题/全排列2.java&#10;Abs&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/AbstractList.java&#10;AbstractLis&#9;PSI&#9;JAVA://java.util.AbstractList&#10;PathS&#9;PSI&#9;JAVA://对递归问题的分析.day01.PathSum&#10;BST&#9;PSI&#9;JAVA://对递归问题的分析.day01.ValidateBinarySearchTree&#10;平衡&#9;PSI&#9;JAVA://day03.part2.P55_2平衡二叉树&#10;Priori&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/PriorityBlockingQueue.java&#10;Lock&#9;PSI&#9;JAVA://java.util.concurrent.locks.Lock&#10;Object&#9;PSI&#9;JAVA://java.lang.Object&#10;ArrayLIst&#9;PSI&#9;JAVA://java.util.ArrayList&#10;WordS&#9;FILE&#9;file:///Users/wangxi/ideaProjects/Algorithm/2019/src/对递归问题的分析/day01/WordSearch.java&#10;LinkedHash&#9;PSI&#9;JAVA://java.util.LinkedHashMap&#10;HashSet&#9;PSI&#9;JAVA://java.util.HashSet&#10;AtomicI&#9;PSI&#9;JAVA://java.util.concurrent.atomic.AtomicInteger&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608455554165" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608455812888" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -792,7 +816,7 @@
       <workItem from="1604331351729" duration="1956000" />
       <workItem from="1607527052648" duration="10609000" />
       <workItem from="1607873483745" duration="2779000" />
-      <workItem from="1608385048839" duration="10462000" />
+      <workItem from="1608385048839" duration="10720000" />
     </task>
     <task id="LOCAL-00001" summary="算法">
       <created>1542100188137</created>
@@ -1109,17 +1133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1608396113941</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="最长子串问题">
+      <created>1608455738283</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1608455738283</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281678000" />
+    <option name="totallyTimeSpent" value="281936000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24919094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24919094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1128,7 +1158,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27492446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2734139" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4486405" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1186,7 +1216,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新LRU" />
     <MESSAGE value="update LRU" />
     <MESSAGE value="leetcode LRU" />
     <MESSAGE value="对链表归并" />
@@ -1211,7 +1240,8 @@
     <MESSAGE value="字典树" />
     <MESSAGE value="最小堆的top K问题" />
     <MESSAGE value="排列组合&amp;子集&amp;DFS&amp;回溯算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="排列组合&amp;子集&amp;DFS&amp;回溯算法" />
+    <MESSAGE value="最长子串问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="最长子串问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1264,8 +1294,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///var/folders/56/l735903d7y15jzrh5v4ftdzh0000gn/T/leetcode/editor/cn/[160]相交链表.java" />
-    <entry file="file:///var/folders/56/l735903d7y15jzrh5v4ftdzh0000gn/T/leetcode/editor/cn/[169]多数元素.java" />
     <entry file="file:///var/folders/56/l735903d7y15jzrh5v4ftdzh0000gn/T/leetcode/editor/cn/[198]打家劫舍.java" />
     <entry file="file:///var/folders/56/l735903d7y15jzrh5v4ftdzh0000gn/T/leetcode/editor/cn/[200]岛屿数量.java" />
     <entry file="file:///var/folders/56/l735903d7y15jzrh5v4ftdzh0000gn/T/leetcode/editor/cn/[206]反转链表.java" />
@@ -1564,11 +1592,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2019/src/leecode/面试题/LengthOfLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="63" column="54" lean-forward="true" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
+        <state relative-caret-position="536">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/leecode/链表/MergeSortLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="30" column="62" lean-forward="true" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/src/leecode/链表/链表节点引用问题/Main01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>

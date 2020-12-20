@@ -46,6 +46,7 @@ public class LengthOfLongestSubstring {
             int curLen = j - i + 1;
             if (curLen > maxLen) {
                 maxLen = curLen;
+                // 既然想要获取中间的字符串值，那么找一个中间变量一直更新即可
                 result = s.substring(i, j + 1);
             }
             map.put(c, j + 1);
