@@ -20,36 +20,13 @@ public class Test {
         System.out.println(list);
 
         new Test().permutation("abc");
+
+        System.out.println((int)'a');
     }
 
 
     public String[] permutation(String s) {
-        if (s == null || s.length() <= 0) {
-            String[] error = new String[0];
-            return error;
-        }
-        List<String> list = new ArrayList<>();
-        int len = list.size();
-        String[] result = new String[len];
-        for (int i = 0; i < len; i++) {
-            result[i] = list.get(i);
-        }
-        return result;
-    }
-
-    private void dfs(String s, List<String> list, String str) {
-        if (str.length() == s.length()) {
-            String ss = str;
-            list.add(ss);
-            return;
-        }
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (str.contains(c + "")) {
-                continue;
-            }
-            dfs(s, list, str + c);
-        }
+        return null;
     }
 }
 
