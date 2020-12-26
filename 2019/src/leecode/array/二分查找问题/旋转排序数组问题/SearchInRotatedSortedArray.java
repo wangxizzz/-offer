@@ -10,7 +10,36 @@ package leecode.array.二分查找问题.旋转排序数组问题;
  *
  * 请你在数组中搜索 target ，如果数组中存在这个目标值，则返回它的索引，否则返回 -1 。
  *
+ * 数组中无重复元素
+ *
  */
 public class SearchInRotatedSortedArray {
-
+    public int search(int[] nums, int target) {
+        if (nums == null || nums.length <= 0) {
+            return -1;
+        }
+        int left = 0;
+        int right = nums.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left)/2;
+            if (nums[mid] == target) {
+                return mid;
+            }
+            if (nums[mid] >= nums[0]) {
+                // 以index = 0 与 index = nums.length - 1 为参照，判断target所在的升序序列
+                if (target >= nums[0] && target < nums[mid]) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            } else {
+                if (target <= nums[nums.length - 1] && target > nums[mid]) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            }
+        }
+        return -1;
+    }
 }
