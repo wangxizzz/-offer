@@ -31,27 +31,29 @@ public class LengthOfLongestSubstring {
      */
     public int lengthOfLongestSubstring2(String s) {
         if (s == null || s.length() <= 0) {
-            return -1;
+            return 0;
         }
-        Map<Character, Integer> map = new HashMap<>();
-        String result = "";
+        Map<Character, Integer> dict = new HashMap<>();
         int i = 0;
-        int maxLen = 0;
+        int maxLen = Integer.MIN_VALUE;
+        String ss = "";
         for (int j = 0; j < s.length(); j++) {
             char c = s.charAt(j);
-            if (map.containsKey(c)) {
-                // map里的元素并没有删除操作，因此可能会命中窗口之外的重复元素。因此需要比较i的大小
-                i = Math.max(map.get(c), i);
+            if (dict.containsKey(c)) {
+                // 注意带等号
+                if (i <= dict.get(c)) {
+                    // map里的元素并没有删除操作，因此可能会命中窗口之外的重复元素。因此需要比较i的大小
+                    i = dict.get(c) + 1;
+                }
             }
             int curLen = j - i + 1;
             if (curLen > maxLen) {
                 maxLen = curLen;
-                // 既然想要获取中间的字符串值，那么找一个中间变量一直更新即可
-                result = s.substring(i, j + 1);
+                ss = s.substring(i, j + 1);
             }
-            map.put(c, j + 1);
+            dict.put(c, j);
         }
-        System.out.println(result);
+        System.out.println(ss);
         return maxLen;
     }
 
