@@ -19,12 +19,12 @@ import java.util.Arrays;
 public class 堆排序 {
     // 不稳定排序，时间复杂度O(nlongn)
     public static void sort(int[] arr) {
-        //1.构建大顶堆
+        //1.构建大顶堆 (从下往上构建大根堆)
         for (int i = arr.length / 2 - 1; i >= 0; i--) {
             //从第一个非叶子结点从下至上，从右至左调整结构
             adjustHeap(arr, i, arr.length);
         }
-        //2.调整堆结构+交换堆顶元素与末尾元素
+        //2.调整堆结构+交换堆顶元素与末尾元素 (从上往下 进行堆调整)
         for (int j = arr.length - 1; j > 0; j--) {
             swap(arr, 0, j);//将堆顶元素与末尾元素进行交换
             adjustHeap(arr, 0, j);//重新对堆进行调整

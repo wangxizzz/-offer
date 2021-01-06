@@ -12,6 +12,8 @@ package leecode.array.二分查找问题.旋转排序数组问题;
  *
  * nums 中的每个值都 独一无二
  *
+ * 数组中无重复元素
+ *
  */
 public class SearchInRotatedSortedArray {
 
