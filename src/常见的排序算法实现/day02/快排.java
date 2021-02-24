@@ -33,12 +33,12 @@ public class 快排 {
             }
             nums[end] = nums[start];
         }
-        nums[end] = key;
-        return end;
+        nums[start] = key;
+        return start;
     }
 
     public static void main(String[] args) {
-        int[] nums = {5,4,3,2,1};
+        int[] nums = {5,4,3,2,1,2};
         sort(nums, 0, nums.length - 1);
         System.out.println(Arrays.toString(nums));
     }
