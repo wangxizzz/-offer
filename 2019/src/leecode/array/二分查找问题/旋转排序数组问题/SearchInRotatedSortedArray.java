@@ -25,6 +25,8 @@ public class SearchInRotatedSortedArray {
             if (nums[mid] == target) {
                 return mid;
             }
+
+            // 注意考虑等号的情况，考虑 target == 边界的数字。
             if (nums[mid] >= nums[0]) {
                 // 以index = 0 与 index = nums.length - 1 为参照，判断target所在的升序序列
                 if (target >= nums[0] && target < nums[mid]) {
