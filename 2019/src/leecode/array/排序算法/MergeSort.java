@@ -1,15 +1,22 @@
-package 常见的排序算法实现.day02;
-
-import java.util.Arrays;
+package leecode.array.排序算法;
 
 /**
- * @Author: wangxi
- * @Description :
- * @Date: 2018/8/31 0031 11:12
+ * @author wangxi created on 2021/3/3 00:07
+ * @version v1.0
+ *
+ * https://leetcode-cn.com/problems/sort-an-array/
  */
-public class 归并排序 {
+public class MergeSort {
 
-    public static void sort(int[] nums, int start, int end) {
+    public int[] sortArray(int[] nums) {
+        if (nums == null || nums.length <= 0) {
+            return nums;
+        }
+        sort(nums, 0, nums.length - 1);
+        return nums;
+    }
+
+    private void sort(int[] nums, int start, int end) {
         if (nums == null || nums.length <= 0) {
             return;
         }
@@ -22,7 +29,7 @@ public class 归并排序 {
         merge(nums, start, mid, end);
     }
 
-    public static void merge(int[] nums, int start, int mid, int end) {
+    private void merge(int[] nums, int start, int mid, int end) {
         int[] temp = new int[end - start + 1];
         int i = start;
         int j = mid + 1;
@@ -43,11 +50,5 @@ public class 归并排序 {
         for (int p = 0; p < temp.length; p++) {
             nums[start + p] = temp[p];
         }
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {5,4,3,2,1};
-        sort(nums, 0, nums.length - 1);
-        System.out.println(Arrays.toString(nums));
     }
 }

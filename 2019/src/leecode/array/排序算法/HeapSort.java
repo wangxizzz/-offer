@@ -1,11 +1,8 @@
-package 常见的排序算法实现.day01;
-
-import java.util.Arrays;
+package leecode.array.排序算法;
 
 /**
- * @Author: wangxi
- * @Description :
- * @Date: 2018/7/25 0025 21:16
+ * @author wangxi created on 2021/3/3 00:09
+ * @version v1.0
  * https://www.javazhiyin.com/57579.html
  * 堆排序是一种选择排序，堆排序由两部分构成：
  * 1.构建初始堆
@@ -15,24 +12,34 @@ import java.util.Arrays;
  * 或者每个结点的值都小于或等于其左右孩子结点的值，称为小顶堆
  *
  * 要使用堆排序，必须先要满足堆的性质，因此会有先构建堆的步骤。
+ *
+ *
+ *  https://leetcode-cn.com/problems/sort-an-array/
  */
-public class 堆排序 {
-    // 不稳定排序，时间复杂度O(nlongn)
-    public static void sort(int[] arr) {
+public class HeapSort {
+    public int[] sortArray(int[] nums) {
+        if (nums == null || nums.length <= 0) {
+            return nums;
+        }
+        sort(nums);
+        return nums;
+    }
+
+    private void sort(int[] arr) {
         //1.构建大顶堆 (从下往上构建大根堆)
         for (int i = arr.length / 2 - 1; i >= 0; i--) {
             //从第一个非叶子结点从下至上，从右至左调整结构
             adjustHeap(arr, i, arr.length);
         }
         //2.调整堆结构+交换堆顶元素与末尾元素 (从上往下 进行堆调整)
-        for (int j = arr.length - 1; j > 0; j--) {
+        for (int j = arr.length - 1; j >= 0; j--) {
             swap(arr, 0, j);//将堆顶元素与末尾元素进行交换
             adjustHeap(arr, 0, j);//重新对堆进行调整
         }
 
     }
 
-    public static void adjustHeap(int[] arr, int i, int length) {
+    private void adjustHeap(int[] arr, int i, int length) {
         int temp = arr[i];//先取出当前元素i
         for (int k = i * 2 + 1; k < length; k = k * 2 + 1) {   // 注意for循环：递归把最大节点提上来(最小堆)
             //从i结点的左子结点开始，也就是2i+1处开始
@@ -55,11 +62,5 @@ public class 堆排序 {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {5, 6, 4, 3, 2, 1, 8};
-        sort(nums);
-        System.out.println(Arrays.toString(nums));
     }
 }
