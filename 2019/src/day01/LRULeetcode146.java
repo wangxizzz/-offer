@@ -78,6 +78,7 @@ public class LRULeetcode146 {
         int value;
         Node pre;
         Node next;
+        // 注意：node 的构建函数是 key-value结果，LFU也是如此
         public Node(int key, int value) {
             this.key = key;
             this.value = value;
